@@ -1,0 +1,8 @@
+<h1>Nuevo Usuario </h1>
+  
+  <%= form_for @user do |f| %>
+  <p>Nombre: <%= f.text_field :first_name %></p>
+  <p>Apellido: <%= f.text_field :last_name %></p>
+  <p>Edad: <%= f.number_field :age %></p>
+  <%= f.submit 'Guardar' %>
+<% end %>

@@ -1,0 +1,6 @@
+<h1>Inserta 2 numeros: </h1>
+<%= form_tag(sum_forma_path) do %>
+    Numero 1: <%= text_field_tag :num1 %>
+    Numero 2: <%= text_field_tag :num2 %>
+  <%= submit_tag 'sumar' %>
+<% end %>
