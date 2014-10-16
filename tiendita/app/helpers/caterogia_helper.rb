@@ -1,0 +1,2 @@
+module CaterogiaHelper
+end
